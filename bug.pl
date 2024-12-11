@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); my $element = $array[3]; # This will cause an error because Perl arrays are 0-indexed.
