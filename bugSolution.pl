@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); if ($#array >= 3) { my $element = $array[3]; # Access element only if index is valid } else { print "Array index out of bounds\n"; } #Alternative using scalar context: my $element; if (@array > 3){ $element = $array[3];} else { print "Array index out of bounds\n"; }
